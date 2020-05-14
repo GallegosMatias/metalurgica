@@ -10,10 +10,10 @@ body{
 }
 
 .nav{
-    position: fixed;
-    z-index: 100;
-    width: 100%;
-  }
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
 
 nav.nav{
   height: 20px;
@@ -229,4 +229,19 @@ footer ul li{
 .fiscal{
   font-size: 15px;
   color: #a6a6a6;
+}
+
+@media screen and (max-width: 769px) {
+  .logo {
+    position: fixed;
+    float: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .footer {
+    display: inline-block;
+  }
 }
